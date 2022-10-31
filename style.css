@@ -43,24 +43,25 @@ li {
   align-items: center;
   display: flex;
   justify-content: center;
-  box-shadow: 10px 5px 14px 5px;
+  box-shadow: 0 6px 15px 8px;
 }
 
 .bg-img {
-  background-image: url(https://images.unsplash.com/photo-1666866011772-7c9442d479bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8aVVJc25WdGpCMFl8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+  background-image: url(https://images.unsplash.com/photo-1629048859436-b1d1c3a135db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
   /* margin-top: 20em; */
+
 }
 .bg-img-2 {
-  background-image: url(https://images.unsplash.com/photo-1666760012382-fbe424732e4d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDV8aVVJc25WdGpCMFl8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+  background-image: url(https://images.unsplash.com/photo-1579595629330-f439009b0636?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1157&q=80);
 }
 .bg-img-3 {
-  background-image: url(https://images.unsplash.com/photo-1666827717869-448a0adcd4ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8aVVJc25WdGpCMFl8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+  background-image: url(https://images.unsplash.com/photo-1654122678037-91373da1dbb2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
 }
 .bg-img-4 {
-  background-image: url(https://images.unsplash.com/photo-1666760012382-fbe424732e4d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDV8aVVJc25WdGpCMFl8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+  background-image: url(https://images.unsplash.com/photo-1620133773359-f8f9bcd0deaf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
 }
 .bg-img-5 {
-  background-image: url(https://images.unsplash.com/photo-1666827717869-448a0adcd4ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8aVVJc25WdGpCMFl8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+  background-image: url(https://images.unsplash.com/photo-1612774412771-005ed8e861d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
 }
 h1 {
   text-align: center;
