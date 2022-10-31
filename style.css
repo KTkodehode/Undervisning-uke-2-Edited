@@ -22,7 +22,7 @@ body {
 ul {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
+  /* justify-content: spacee-around; */
   padding-inline-start: 0;
 }
 li {
