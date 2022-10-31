@@ -22,7 +22,7 @@ body {
 ul {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   padding-inline-start: 0;
 }
 li {
@@ -43,10 +43,12 @@ li {
   align-items: center;
   display: flex;
   justify-content: center;
+  box-shadow: 10px 5px 14px 5px;
 }
 
 .bg-img {
   background-image: url(https://images.unsplash.com/photo-1666866011772-7c9442d479bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8aVVJc25WdGpCMFl8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+  /* margin-top: 20em; */
 }
 .bg-img-2 {
   background-image: url(https://images.unsplash.com/photo-1666760012382-fbe424732e4d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDV8aVVJc25WdGpCMFl8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
@@ -94,9 +96,27 @@ a:hover {
 button {
   font-size: 4em;
   transition: 0.5s;
+  /* align-items: center; */
+  border: none;
+  border-radius: 10%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 button:hover {
   background-color: black;
   color: wheat;
   border-radius: 10px;
+}
+p {
+  margin-top: 10px;
+}
+.tst-btn {
+  text-align: center;
+  /* display: flex; */
+  /* flex-direction: row; */
+  background-color: gray;
+  /* align-items: center; */
+  display: block;
+  margin-left: 45%;
 }
