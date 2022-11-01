@@ -125,8 +125,10 @@ p {
   margin-left: 45%;
 }
 @media screen {
-  .section-info {
+  .li {
     margin-left: auto;
     margin-right: auto;
+    margin-inline-start: 1px;
+    margin-inline-end: -28%;
   }
 }
