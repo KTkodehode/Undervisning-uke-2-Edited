@@ -33,7 +33,7 @@ li {
 .bg-img-3,
 .bg-img-4,
 .bg-img-5 {
-  height: 100vh;
+  height: auto; /*100vh*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
