@@ -4,11 +4,14 @@
 }
 
 .bg-img {
-  height: 100vh;
+  height: auto; /* 100vh */
   background-image: url(https://images.unsplash.com/photo-1666760012382-fbe424732e4d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDV8aVVJc25WdGpCMFl8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* max-width: 100%;
+  height: auto; */
+  /* min-height: unset;  */
 }
 
 nav {
@@ -27,7 +30,7 @@ body {
 ul {
   display: flex;
   flex-direction: column;
-  /* justify-content: spacee-earound; */
+  justify-content: space-around;
   padding-inline-start: 0;
 }
 
@@ -40,7 +43,7 @@ li {
 .bg-img-3,
 .bg-img-4,
 .bg-img-5 {
-  height: 100vh;
+  height: auto; /*100vh*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -143,4 +146,22 @@ p {
   /* align-items: center; */
   display: block;
   margin-left: 45%;
+}
+@media only screen and (max-width: 800px) {
+  /* For tablets: */
+  .bg-img {
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width: 200px) {
+  /* For mobile phones: */
+  .bg-img {
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
