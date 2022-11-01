@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
 }
+
 .bg-img {
   height: 100vh;
   background-image: url(https://images.unsplash.com/photo-1666760012382-fbe424732e4d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDV8aVVJc25WdGpCMFl8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
@@ -9,25 +10,31 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 nav {
   height: 70px;
   background-color: rgb(80, 110, 136);
 }
+
 .nav-link {
   text-align: center;
 }
+
 body {
   flex-direction: column;
 }
+
 ul {
   display: flex;
   flex-direction: column;
   /* justify-content: spacee-earound; */
   padding-inline-start: 0;
 }
+
 li {
   list-style: none;
 }
+
 .bg-img,
 .bg-img-2,
 .bg-img-3,
@@ -52,23 +59,29 @@ li {
 .bg-img {
   background-image: url(https://images.unsplash.com/photo-1629048859436-b1d1c3a135db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
 }
+
 .bg-img-2 {
   background-image: url(https://images.unsplash.com/photo-1579595629330-f439009b0636?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1157&q=80);
 }
+
 .bg-img-3 {
   background-image: url(https://images.unsplash.com/photo-1654122678037-91373da1dbb2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
 }
+
 .bg-img-4 {
   background-image: url(https://images.unsplash.com/photo-1620133773359-f8f9bcd0deaf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
 }
+
 .bg-img-5 {
   background-image: url(https://images.unsplash.com/photo-1612774412771-005ed8e861d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
 }
+
 h1 {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   color: burlywood;
 }
+
 h2 {
   background-color: bisque;
   font-size: 70px;
@@ -85,17 +98,21 @@ h3 {
   margin-top: 50px;
   font-size: 50px;
 }
+
 p {
   margin-inline: 100px;
   margin-top: 50px;
   font-size: 25px;
 }
+
 a:visited {
   color: aquamarine;
 }
+
 a:hover {
   color: green;
 }
+
 button {
   font-size: 4em;
   transition: 0.5s;
@@ -106,15 +123,18 @@ button {
   margin: 0;
   padding: 0;
 }
+
 button:hover {
   background-color: black;
   color: wheat;
   border-radius: 10px;
 }
+
 p {
   margin-top: 10px;
   text-align: center;
 }
+
 .tst-btn {
   text-align: center;
   /* display: flex; */
